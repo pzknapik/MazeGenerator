@@ -21,11 +21,11 @@ big mazes (100x100) in a few seconds.
 Implemented data structures used for maze representation allow to extend the program with
 more efficient Wilson's algorithm.
 
-# Visualization
+## Visualization
 
 Starting/default state of 7x7 maze:
 
-```bash
+```text
 +   ++---++---++---++---++---++---+
 | # || # || # || # || # || # || # |
 +---++---++---++---++---++---++---+
@@ -49,7 +49,7 @@ Starting/default state of 7x7 maze:
 +---++---++---++---++---++---++   +
 ```
 Maze (7x7) generated with Aldous-Broder algorithm:
-```bash
+```text
 +   ++---++---++---++---++---++---+
 |   ||        ||   ||             |
 +   ++---++   ++   ++---++   ++   +
@@ -73,7 +73,7 @@ Maze (7x7) generated with Aldous-Broder algorithm:
 +---++---++---++---++---++---++   +
 ```
 
-# Sources
+## Sources
 
 [wikipedia](https://en.wikipedia.org/wiki/Maze_generation_algorithm)
 
